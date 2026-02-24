@@ -15,6 +15,7 @@ export default function Home() {
           <h2 className="font-semibold text-lg underline">Código no GitHub &rarr;</h2>
           <p>Acesse meus repositórios e estudos técnicos.</p>
         </div>
+        
       </div>
     </main>
   )
