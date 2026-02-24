@@ -29,6 +29,12 @@ jobs:
         run: npm cache clean --force
       - name: Build static site with Next.js
         run: npm run build
+      - name: List files after build (debug)
+        run: |
+          echo "Diretório atual: $(pwd)"
+          ls -l
+          echo "Conteúdo da pasta ./out:"
+          ls -l ./out || echo "./out não existe"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
