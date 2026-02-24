@@ -25,7 +25,9 @@ jobs:
           static_site_generator: next
       - name: Install dependencies
         run: npm install
-      - name: Static HTML export with Next.js
+      - name: Clean npm cache (opcional)
+        run: npm cache clean --force
+      - name: Build static site with Next.js
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
