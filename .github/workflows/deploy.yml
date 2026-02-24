@@ -1,3 +1,5 @@
+      - name: Listar arquivos modificados antes do build (debug)
+        run: find . -type f -printf '%T@ %p\n' | sort -n | tail -20
 name: Deploy Next.js site to Pages
 
 on:
