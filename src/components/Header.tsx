@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Terminal } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -7,7 +8,11 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className='flex items-center gap-2 group'>
                 <div className='w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-white group-hover:bg-blue-500 transition-colors'>
-                    GR
+                    <Terminal 
+                        size={32} 
+                        strokeWidth={2.5} 
+                        className="text-blue-500 group-hover:scale-110 transition-transform duration-300" 
+                    />
                 </div>
                 <span className="font-bold text-lg hidden sm:inline-block tracking-tight text-white">
                     Gleyson
