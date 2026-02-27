@@ -11,7 +11,7 @@ export default function Header() {
                     <Terminal 
                         size={32} 
                         strokeWidth={2.5} 
-                        className="text-blue-500 group-hover:scale-110 transition-transform duration-300" 
+                        className="text-white group-hover:scale-110 transition-transform duration-300" 
                     />
                 </div>
                 <span className="font-bold text-lg hidden sm:inline-block tracking-tight text-white">
