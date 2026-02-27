@@ -48,7 +48,7 @@ export default function Home() {
           <div className="relative bg-[#0d1117] border border-slate-800 rounded-3xl p-2 overflow-hidden aspect-square flex items-center justify-center">
              <div className="relative bg-[#0d1117] border border-slate-800 rounded-3xl p-2 overflow-hidden aspect-square flex items-center justify-center">
               <NextImage 
-                src="/foto-perfil.jpg" 
+                src="public/foto-perfil.jpg" 
                 alt="Foto de Gleyson Ribeiro"
                 fill
                 className="object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-500"
