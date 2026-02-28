@@ -24,7 +24,7 @@ export default function Header() {
             {/* Links - Ocultos no mobile, visíveis no desktop. No futuro, adicionaremos o menu hambúrguer aqui */}
             <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
                 <li><Link href="/projetos" className="hover:text-white transition-colors">Projetos</Link></li>
-                <li><Link href="/experiencia" className="hover:text-white transition-colors">Experiência</Link></li>
+                <li><Link href="/curriculo" className="hover:text-white transition-colors">Currículo</Link></li>
                 <li><Link href="/habilidades" className="hover:text-white transition-colors">Habilidades</Link></li>
                 <li><Link href="/contato" className="hover:text-white transition-colors border border-slate-700 px-4 py-2 rounded-full hover:bg-slate-800">Contato</Link></li>
             </ul>
