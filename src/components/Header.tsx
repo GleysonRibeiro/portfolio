@@ -58,19 +58,48 @@ export default function Header() {
 
         {/* Mobile Menu Overlay */}
         <div className={`
-          fixed inset-0 bg-[#0a0c10] flex flex-col items-center justify-center gap-8 text-xl font-bold transition-all duration-300 md:hidden
+          fixed inset-0 bg-[#0a0c10] flex flex-col items-start justify-start gap-4 text-2xl font-bold transition-all duration-500 md:hidden z-40
+          pt-32 px-10 pb-10 overflow-y-auto
           ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0 pointer-events-none'}
         `}>
-          <Link href="/projetos" onClick={toggleMenu} className="hover:text-blue-500 transition-colors">Projetos</Link>
-          <Link href="/curriculo" onClick={toggleMenu} className="hover:text-blue-500 transition-colors">Currículo</Link>
-          <a 
-            href="#contato" 
-            onClick={toggleMenu}
-            className="bg-blue-600 text-white px-8 py-3 rounded-full shadow-lg shadow-blue-600/20"
+          {/* Linha decorativa ou Categoria */}
+          <span className="text-blue-500 text-xs uppercase tracking-[0.3em] mb-2">Navegação</span>
+
+          <Link 
+            href="/" 
+            onClick={toggleMenu} 
+            className="w-full py-4 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
           >
-            Contato
-          </a>
+            Início <span className="text-slate-700 group-hover:text-blue-500 text-sm"></span>
+          </Link>
+          
+          <Link 
+            href="/projetos" 
+            onClick={toggleMenu} 
+            className="w-full py-4 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
+          >
+            Projetos <span className="text-slate-700 group-hover:text-blue-500 text-sm"></span>
+          </Link>
+          
+          <Link 
+            href="/curriculo" 
+            onClick={toggleMenu} 
+            className="w-full py-4 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
+          >
+            Currículo <span className="text-slate-700 group-hover:text-blue-500 text-sm"></span>
+          </Link>
+          
+          <div className="w-full pt-6">
+            <a 
+              href="#contato" 
+              onClick={toggleMenu}
+              className="w-full bg-blue-600 text-white py-5 rounded-2xl shadow-lg shadow-blue-600/20 active:scale-95 flex items-center justify-center gap-2"
+            >
+              Contato
+            </a>
+          </div>
         </div>
+
       </nav>
     </header>
   );

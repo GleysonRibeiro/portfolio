@@ -37,12 +37,7 @@ export default function Curriculo() {
             <span className="flex items-center gap-1"><Phone size={14} />{data.perfil.telefone}</span>
           </div>
         </div>
-        <button 
-          onClick={() => window.print()}
-          className="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-xl font-bold transition-all shadow-lg shadow-blue-600/20"
-        >
-          <Download size={18} /> Exportar PDF
-        </button>
+        
       </div>
 
       {/* Perfil Profissional */}

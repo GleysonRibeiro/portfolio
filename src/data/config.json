@@ -42,7 +42,7 @@
       "tech": ["Next.js 16", "Tailwind CSS", "TypeScript", "Lucide Icons"],
       "github": "https://github.com/GleysonRibeiro/portfolio",
       "demo": "/",
-      "imagem": "../../../public/images/projetos/portfolio.png"
+      "imagem": "/images/projetos/portfolio.png"
     }
   ],
   "curriculo": {

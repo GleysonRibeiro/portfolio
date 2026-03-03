@@ -28,12 +28,13 @@ export default function Projetos() {
             <div className="relative h-64 w-full bg-slate-900 overflow-hidden">
               <div className="absolute inset-0 bg-blue-600/10 group-hover:bg-transparent transition-colors z-10"></div>
               
-              <div className="relative h-64 w-full overflow-hidden">
+              <div className="relative h-64 w-full overflow-hidden rounded-xl">
                 <NextImage 
-                  src={proj.imagem} 
+                  src={`/portfolio${proj.imagem}`} 
                   alt={`Imagem do projeto ${proj.titulo}`} 
                   fill 
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
             </div>
