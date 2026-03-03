@@ -1,37 +1,32 @@
+# 🚀 Portfólio Profissional
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Este projeto é uma landing page de alta performance desenvolvida para centralizar minha trajetória profissional, competências técnicas e projetos de software. O foco principal foi unir **SEO**, **acessibilidade** e uma arquitetura de dados escalável. O projeto pode ser perfeitamente reutilizado por outro dev ao realizar os ajustes no arquivo 'config.json'.
 
-## Teste
+## 🛠️ Tecnologias Utilizadas
 
-First, run the development server:
+### Core & Frameworks
+* **Next.js (App Router):** Utilizado para roteamento dinâmico e renderização híbrida (Server e Client Components).
+* **React:** Base para a construção de interfaces reativas e modulares.
+* **TypeScript:** Implementação de tipagem estática para garantir a robustez e manutenibilidade do código.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Estilização & UI/UX
+* **Tailwind CSS:** Framework utilitário para design responsivo e animações personalizadas.
+* **Lucide Icons:** Biblioteca de ícones vetoriais para uma interface intuitiva e moderna.
+* **Mobile-First Design:** Menu mobile interativo com suporte a Viewport Heights dinâmicos (`dvh`).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Performance & Infraestrutura
+* **Next Image Optimization:** Carregamento inteligente de assets e imagens de projetos via JSON.
+* **Arquitetura Baseada em Configuração:** Centralização de dados em arquivos JSON, permitindo atualizações de conteúdo sem necessidade de alteração na lógica do software.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Estrutura de Pastas Principal
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* `src/app/`: Roteamento e páginas (Projetos, Currículo, Home).
+* `src/components/`: Componentes reutilizáveis (Header, Timeline, Tags).
+* `src/data/`: Ficheiro `config.json` contendo toda a inteligência de dados do portfólio.
+* `public/`: Assets estáticos (imagens e logos).
 
-## Learn More
+## 🚀 Como rodar o projeto localmente
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/GleysonRibeiro/portfolio.git](https://github.com/GleysonRibeiro/portfolio.git)
