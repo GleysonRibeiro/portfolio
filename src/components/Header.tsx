@@ -58,45 +58,52 @@ export default function Header() {
 
         {/* Mobile Menu Overlay */}
         <div className={`
-          fixed inset-0 bg-[#0a0c10] flex flex-col items-start justify-start gap-4 text-2xl font-bold transition-all duration-500 md:hidden z-40
-          pt-32 px-10 pb-10 overflow-y-auto
+          fixed top-0 left-0 w-full h-screen bg-[#0a0c10] flex flex-col items-start justify-center gap-2 text-3xl font-bold transition-all duration-500 md:hidden z-40
+          px-10
           ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0 pointer-events-none'}
         `}>
           {/* Linha decorativa ou Categoria */}
-          <span className="text-blue-500 text-xs uppercase tracking-[0.3em] mb-2">Navegação</span>
+          <span className="text-blue-500 text-xs uppercase tracking-[0.3em] mb-4">Navegação</span>
 
           <Link 
             href="/" 
             onClick={toggleMenu} 
-            className="w-full py-4 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
+            className="w-full py-6 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
           >
-            Início <span className="text-slate-700 group-hover:text-blue-500 text-sm"></span>
+            Início <span className="text-slate-800 text-sm"></span>
           </Link>
           
           <Link 
             href="/projetos" 
             onClick={toggleMenu} 
-            className="w-full py-4 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
+            className="w-full py-6 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
           >
-            Projetos <span className="text-slate-700 group-hover:text-blue-500 text-sm"></span>
+            Projetos <span className="text-slate-800 text-sm"></span>
           </Link>
           
           <Link 
             href="/curriculo" 
             onClick={toggleMenu} 
-            className="w-full py-4 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
+            className="w-full py-6 border-b border-slate-800/50 hover:text-blue-500 transition-colors flex justify-between items-center group"
           >
-            Currículo <span className="text-slate-700 group-hover:text-blue-500 text-sm"></span>
+            Currículo <span className="text-slate-800 text-sm"></span>
           </Link>
           
-          <div className="w-full pt-6">
+          <div className="w-full pt-10">
             <a 
               href="#contato" 
               onClick={toggleMenu}
-              className="w-full bg-blue-600 text-white py-5 rounded-2xl shadow-lg shadow-blue-600/20 active:scale-95 flex items-center justify-center gap-2"
+              className="w-full bg-blue-600 text-white py-6 rounded-2xl shadow-xl shadow-blue-600/30 active:scale-95 flex items-center justify-center gap-2 text-xl"
             >
               Contato
             </a>
+          </div>
+
+          {/* Opcional: Footer do Menu Mobile para preencher espaço inferior */}
+          <div className="absolute bottom-10 left-10">
+            <p className="text-slate-600 text-xs font-medium uppercase tracking-widest">
+              © {new Date().getFullYear()} Gleyson Ribeiro
+            </p>
           </div>
         </div>
 
