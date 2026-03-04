@@ -43,6 +43,14 @@
       "github": "https://github.com/GleysonRibeiro/portfolio",
       "demo": "/",
       "imagem": "/images/projetos/portfolio.png"
+    },
+    {
+      "titulo": "ResidencialPost 🚧 Em fase de documentação",
+      "descricao": "Sistema de controle de recebimento e entrega de correspondências para condomínios residenciais. O objetivo do projeto é digitalizar o processo realizado na portaria, garantindo rastreabilidade, segurança e organização na gestão de encomendas e correspondências dos moradores.",
+      "tech": ["FastAPI", "Python", "SQLAlchemy", "Pydantic", "JWT", "PostgreSQL", "React", "REST API", "React Native", "GitHub", "Docker"],
+      "github": "https://github.com/GleysonRibeiro/residencialpost",
+      "demo": "",
+      "imagem": "/images/projetos/residencialpost.png"
     }
   ],
   "curriculo": {
