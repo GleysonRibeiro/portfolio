@@ -45,6 +45,14 @@
       "imagem": "/images/projetos/portfolio.png"
     },
     {
+      "titulo": "Sistema de Gestão de Liberações",
+      "descricao": "Projeto desenvolvido para fins acadêmicos com foco em controle de operações de transporte rodoviário. Utiliza Arquitetura MVC e princípios SOLID para automação do fluxo de autorizações de viagens, aplicando padrões de projeto em Java para garantir código limpo e escalável.",
+      "tech": ["Java", "MVC", "SOLID", "Design Patterns"],
+      "github": "https://github.com/GleysonRibeiro/Liberacoes",
+      "demo": "https://github.com/GleysonRibeiro/Liberacoes",
+      "imagem": "/images/projetos/liberacoes.png"
+    },
+    {
       "titulo": "ResidencialPost 🚧 Em fase de documentação",
       "descricao": "Sistema de controle de recebimento e entrega de correspondências para condomínios residenciais. O objetivo do projeto é digitalizar o processo realizado na portaria, garantindo rastreabilidade, segurança e organização na gestão de encomendas e correspondências dos moradores.",
       "tech": ["FastAPI", "Python", "SQLAlchemy", "Pydantic", "JWT", "PostgreSQL", "React", "REST API", "React Native", "GitHub", "Docker"],
