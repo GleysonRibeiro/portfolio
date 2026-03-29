@@ -50,7 +50,7 @@
       "tech": ["Java", "MVC", "SOLID", "Design Patterns"],
       "github": "https://github.com/GleysonRibeiro/Liberacoes",
       "demo": "https://github.com/GleysonRibeiro/Liberacoes",
-      "imagem": "/images/projetos/liberacoes.png"
+      "imagem": "/images/projetos/liberacoes.jpg"
     },
     {
       "titulo": "Jogo da Forca",
@@ -58,7 +58,7 @@
       "tech": ["Java", "MVC", "Design Patterns", "POO"],
       "github": "https://github.com/GleysonRibeiro/Forca",
       "demo": "https://github.com/GleysonRibeiro/Forca",
-      "imagem": "/images/projetos/forca.png"
+      "imagem": "/images/projetos/forca.jpg"
     },
     {
       "titulo": "ResidencialPost 🚧 Em fase de documentação",
