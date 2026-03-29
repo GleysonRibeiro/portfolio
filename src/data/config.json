@@ -61,6 +61,14 @@
       "imagem": "/images/projetos/forca.jpg"
     },
     {
+      "titulo": "Apontamentos de KM",
+      "descricao": "Aplicação web desenvolvida para fins acadêmicos na disciplina de Programação Web. O sistema realiza o gerenciamento e apontamento de quilometragem (KM), utilizando o ecossistema Spring para um backend robusto e Thymeleaf para renderização dinâmica de interfaces.",
+      "tech": ["Java", "Spring Boot", "Thymeleaf", "Spring Data JPA", "H2/PostgreSQL"],
+      "github": "https://github.com/GleysonRibeiro/ProgWeb",
+      "demo": "https://github.com/GleysonRibeiro/ProgWeb",
+      "imagem": "/images/projetos/apontamentos.png"
+    },
+    {
       "titulo": "ResidencialPost 🚧 Em fase de documentação",
       "descricao": "Sistema de controle de recebimento e entrega de correspondências para condomínios residenciais. O objetivo do projeto é digitalizar o processo realizado na portaria, garantindo rastreabilidade, segurança e organização na gestão de encomendas e correspondências dos moradores.",
       "tech": ["FastAPI", "Python", "SQLAlchemy", "Pydantic", "JWT", "PostgreSQL", "React", "REST API", "React Native", "GitHub", "Docker"],
