@@ -53,6 +53,14 @@
       "imagem": "/images/projetos/liberacoes.png"
     },
     {
+      "titulo": "Jogo da Forca",
+      "descricao": "Desenvolvimento de um sistema para o Jogo da Forca, criado para fins acadêmicos na disciplina de Laboratório de Orientação a Objetos. O foco do projeto foi a aplicação prática de padrões de projeto e separação de responsabilidades utilizando a arquitetura MVC em Java.",
+      "tech": ["Java", "MVC", "Design Patterns", "POO"],
+      "github": "https://github.com/GleysonRibeiro/Forca",
+      "demo": "https://github.com/GleysonRibeiro/Forca",
+      "imagem": "/images/projetos/forca.png"
+    },
+    {
       "titulo": "ResidencialPost 🚧 Em fase de documentação",
       "descricao": "Sistema de controle de recebimento e entrega de correspondências para condomínios residenciais. O objetivo do projeto é digitalizar o processo realizado na portaria, garantindo rastreabilidade, segurança e organização na gestão de encomendas e correspondências dos moradores.",
       "tech": ["FastAPI", "Python", "SQLAlchemy", "Pydantic", "JWT", "PostgreSQL", "React", "REST API", "React Native", "GitHub", "Docker"],
